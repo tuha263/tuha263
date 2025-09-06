@@ -132,6 +132,11 @@ tuha@gamedev-machine:~\$ git log --all --oneline --stats\\
           
           echo "✅ Terminal section updated with real stats"
           
+          # Update Featured Projects section to use custom API
+          sed -i 's|github-readme-stats\.vercel\.app/api/pin|github-readme-stats-tuha263.vercel.app/api/pin|g' README.md
+          
+          echo "✅ Featured Projects section updated to use custom API"
+          
       - name: Verify Enhanced Stats Integration
         run: |
           echo "✅ README updated successfully"

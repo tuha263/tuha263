@@ -40,7 +40,7 @@
 
 <div align="center">
   <img src="https://github-readme-stats-tuha263.vercel.app/api?username=tuha263&show_icons=true&theme=synthwave&count_private=true&include_all_commits=true&show_owner=true&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=FFFFFF&custom_title=Complete%20Development%20Statistics" width="49%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tuha263&theme=synthwave&hide_border=true&background=0D1117&stroke=F85D7F&ring=F8D866&fire=F85D7F&currStreekLabel=F85D7F" width="49%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tuha263&theme=synthwave&hide_border=true&background=0D1117&stroke=F85D7F&ring=F8D866&fire=F85D7F&currStreakLabel=F85D7F" width="49%" />
 </div>
 
 <div align="center">
@@ -203,7 +203,7 @@ Powered by JetBrains + Claude Code! 🚀
 <div align="center">
 
 ### 🎮 Interactive Portfolio Website
-[![Portfolio Website](https://github-readme-stats.vercel.app/api/pin/?username=tuha263&repo=tuha263.github.io&theme=synthwave&hide_border=true&bg_color=0D1117)](https://github.com/tuha263/tuha263.github.io)
+[![Portfolio Website](https://github-readme-stats-tuha263.vercel.app/api/pin/?username=tuha263&repo=tuha263.github.io&theme=synthwave&hide_border=true&bg_color=0D1117)](https://github.com/tuha263/tuha263.github.io)
 
 **🎯 Live Demo:** [tuha263.github.io](https://tuha263.github.io) | **🐍 Play Snake Game** | **⚡ Interactive Stats**
 
