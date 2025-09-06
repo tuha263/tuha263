@@ -90,7 +90,9 @@
 <div align="center">
   
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![JetBrains](https://img.shields.io/badge/JetBrains-000000?style=for-the-badge&logo=jetbrains&logoColor=white)
+![Rider](https://img.shields.io/badge/Rider-000000?style=for-the-badge&logo=rider&logoColor=white)
+![Claude Code](https://img.shields.io/badge/Claude_Code-FF6B35?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
@@ -159,8 +161,15 @@ cea813d 🔧 Fixed CI/CD pipeline permissions configuration
 2159774 🎮 Launched interactive developer portfolio
 228dd24 🚀 Initial project architecture established
 
-tuha@gamedev-machine:~$ echo "Ready for new challenges! 🚀"
-Ready for new challenges! 🚀
+tuha@gamedev-machine:~$ cat ~/.config/development_stack.yml
+primary_ide: "JetBrains Rider"
+ai_assistant: "Claude Code CLI"
+version_control: "Git"
+containerization: "Docker"
+os: "Linux"
+
+tuha@gamedev-machine:~$ echo "Powered by JetBrains + Claude Code! 🚀"
+Powered by JetBrains + Claude Code! 🚀
 ```
 
 </div>
@@ -299,9 +308,11 @@ const developer = {
     name: "Tuha",
     role: "Game Developer",
     favoriteLanguage: "C#",
+    primaryIDE: "JetBrains Rider",
+    aiAssistant: "Claude Code",
     currentlyPlaying: ["Snake Game", "Unity Editor"],
-    funFact: "I debug code better after midnight 🌙",
-    motto: "Code it, play it, ship it! 🚀"
+    funFact: "Claude Code + JetBrains = Perfect development flow 🚀",
+    motto: "Code it, play it, ship it!"
 };
 
 console.log("Thanks for checking out my profile! 🎮");
