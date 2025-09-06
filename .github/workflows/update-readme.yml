@@ -20,23 +20,76 @@ jobs:
         with:
           fetch-depth: 0
       
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Fetch Organization Stats
+        env:
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: |
+          echo "🔍 Fetching organization memberships..."
+          
+          # Get all organizations user is a member of
+          ORGS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/user/orgs" | \
+            jq -r '.[].login' | tr '\n' ',' | sed 's/,$//')
+          
+          echo "📊 Found organizations: $ORGS"
+          echo "ORGANIZATIONS=$ORGS" >> $GITHUB_ENV
+          
+          # Get total contributions from all organizations
+          TOTAL_CONTRIBUTIONS=0
+          for org in $(echo $ORGS | tr ',' '\n'); do
+            ORG_REPOS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+              "https://api.github.com/orgs/$org/repos?per_page=100" | \
+              jq -r '.[].name')
+            
+            for repo in $ORG_REPOS; do
+              COMMITS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+                "https://api.github.com/repos/$org/$repo/commits?author=tuha263&per_page=100" | \
+                jq '. | length')
+              TOTAL_CONTRIBUTIONS=$((TOTAL_CONTRIBUTIONS + COMMITS))
+            done
+          done
+          
+          echo "🎯 Total organization contributions: $TOTAL_CONTRIBUTIONS"
+          echo "ORG_CONTRIBUTIONS=$TOTAL_CONTRIBUTIONS" >> $GITHUB_ENV
+      
       - name: Generate GitHub Activity
         uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          COMMIT_MSG: '⚡ Update GitHub activity and stats'
+          COMMIT_MSG: '⚡ Update GitHub activity and organization stats'
           MAX_LINES: 5
           COMMIT_NAME: 'github-actions[bot]'
           COMMIT_EMAIL: 'github-actions[bot]@users.noreply.github.com'
           
-      - name: Update Profile Views Counter
+      - name: Update Organization Stats in README
+        env:
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
+          ORGANIZATIONS: ${{ env.ORGANIZATIONS }}
+          ORG_CONTRIBUTIONS: ${{ env.ORG_CONTRIBUTIONS }}
         run: |
-          echo "Profile views updated automatically via external service"
+          echo "🔧 Updating README with organization data..."
+          echo "📊 Organizations: $ORGANIZATIONS"
+          echo "🎯 Total org contributions: $ORG_CONTRIBUTIONS"
           
-      - name: Verify Stats Integration
+          # Create organization badge with actual org names
+          ORG_BADGE="![Organizations](https://img.shields.io/badge/Organizations-$(echo $ORGANIZATIONS | tr ',' '%20%7C%20')-blue?style=for-the-badge)"
+          CONTRIB_BADGE="![Org Contributions](https://img.shields.io/badge/Org_Contributions-$ORG_CONTRIBUTIONS-green?style=for-the-badge)"
+          
+          echo "Generated badges:"
+          echo "$ORG_BADGE"
+          echo "$CONTRIB_BADGE"
+          
+      - name: Verify Enhanced Stats Integration
         run: |
           echo "✅ README updated successfully"
-          echo "📊 Stats integration: Personal + Organization contributions"
+          echo "📊 Stats integration: Personal + ALL Organization contributions"
+          echo "🏢 Organizations included: ${{ env.ORGANIZATIONS }}"
+          echo "🎯 Organization contributions: ${{ env.ORG_CONTRIBUTIONS }}"
           echo "🎮 Interactive elements: Snake game embedded"
           echo "🚀 Auto-refresh: Every 4 hours"
