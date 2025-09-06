@@ -39,14 +39,17 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tuha263&show_icons=true&theme=synthwave&count_private=true&include_all_commits=true&show_owner=true&include_orgs=true&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=FFFFFF" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=tuha263&show_icons=true&theme=synthwave&count_private=true&include_all_commits=true&show_owner=true&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=FFFFFF" width="49%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=tuha263&theme=synthwave&hide_border=true&background=0D1117&stroke=F85D7F&ring=F8D866&fire=F85D7F&currStreakLabel=F85D7F" width="49%" />
 </div>
 
 <div align="center">
   
-### 🏢 Organization Contributions
-<img src="https://github-readme-stats.vercel.app/api?username=tuha263&show_icons=true&theme=synthwave&count_private=true&include_all_commits=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=FFFFFF" width="80%" />
+### 🏢 Organization Contributions  
+<img src="https://github-readme-stats.vercel.app/api?username=tuha263&show_icons=true&theme=synthwave&count_private=true&include_all_commits=true&show_owner=true&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=FFFFFF&custom_title=All%20Contributions%20(Personal%20%2B%20Organizations)" width="80%" />
+
+### 📈 Complete Contribution Overview
+<img src="https://github-contribution-stats.vercel.app/api/?username=tuha263&theme=dark" width="80%" />
 
 </div>
 
@@ -154,6 +157,14 @@ tuha@gamedev-machine:~$ status --current-quest
 🔥 PRIORITY: HIGH
 💡 INNOVATION: Physics-based screw threading simulation
 
+tuha@gamedev-machine:~$ git log --all --oneline --organizations
+🏢 ORGANIZATION CONTRIBUTIONS: 833 commits across 5 organizations
+   └── StrangeLoopGames: Game engine development
+   └── The1Studio: Unity puzzle games & frameworks  
+   └── NovalandNFT: Blockchain gaming projects
+   └── GameDevelopmentKit: Open-source game tools
+   └── p00ls-games-hosting: Gaming infrastructure
+
 tuha@gamedev-machine:~$ git log --oneline -5
 2da018b 🔗 Enhanced social links and contact systems
 1e38441 ⚡ Automated GitHub activity tracking deployment  
@@ -209,13 +220,13 @@ Powered by JetBrains + Claude Code! 🚀
 
 </div>
 
-### 🏆 Unity Game Development Portfolio
+### 🏆 Professional Game Development Portfolio
 
 <div align="center">
 
+[![Organizations](https://img.shields.io/badge/Organizations-StrangeLoopGames%20%7C%20NovalandNFT%20%7C%20The1Studio%20%7C%20GameDevelopmentKit%20%7C%20p00ls--games--hosting-blue?style=for-the-badge&logo=github)](#)
+[![Org Contributions](https://img.shields.io/badge/Organization_Contributions-833+-green?style=for-the-badge&logo=git&logoColor=white)](#)
 [![Unity Projects](https://img.shields.io/badge/Unity_Projects-5+-ff69b4?style=for-the-badge&logo=unity&logoColor=white)](#)
-[![Puzzle Games](https://img.shields.io/badge/Puzzle_Games-Expert-00ff00?style=for-the-badge&logo=gamemaker&logoColor=white)](#)
-[![Mobile Games](https://img.shields.io/badge/Mobile_Ready-iOS_Android-blue?style=for-the-badge&logo=mobile&logoColor=white)](#)
 
 </div>
 
