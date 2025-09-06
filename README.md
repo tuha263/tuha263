@@ -39,7 +39,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tuha263&show_icons=true&theme=synthwave&count_private=true&include_all_commits=true&show_owner=true&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=FFFFFF" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=tuha263&show_icons=true&theme=synthwave&count_private=true&include_all_commits=true&show_owner=true&include_orgs=true&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=FFFFFF" width="49%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=tuha263&theme=synthwave&hide_border=true&background=0D1117&stroke=F85D7F&ring=F8D866&fire=F85D7F&currStreakLabel=F85D7F" width="49%" />
 </div>
 
@@ -116,7 +116,7 @@
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tuha263&layout=compact&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=FFFFFF&langs_count=10)
 
 ### 🏢 All Contributions (Personal + Organizations)
-![All Contributions Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tuha263&layout=compact&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=FFFFFF&langs_count=10&include_all_commits=true&count_private=true&custom_title=Complete%20Language%20Portfolio)
+![All Contributions Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=tuha263&layout=compact&theme=synthwave&hide_border=true&bg_color=0D1117&title_color=F85D7F&text_color=FFFFFF&langs_count=10&include_all_commits=true&count_private=true&include_orgs=true&custom_title=Complete%20Language%20Portfolio)
 
 </div>
 
