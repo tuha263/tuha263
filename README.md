@@ -89,16 +89,6 @@
 
 </div>
 
-### 🎨 Graphics & Design Tools
-<div align="center">
-  
-![Blender](https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white)
-![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=for-the-badge&logo=adobe-photoshop&logoColor=white)
-![Aseprite](https://img.shields.io/badge/Aseprite-7D929E?style=for-the-badge&logo=aseprite&logoColor=white)
-![Substance](https://img.shields.io/badge/Substance-FF6A00?style=for-the-badge&logo=adobe&logoColor=white)
-
-</div>
-
 ### 🔧 Development Tools
 <div align="center">
   
