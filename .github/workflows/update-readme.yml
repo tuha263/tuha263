@@ -24,6 +24,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
+      
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y bc jq
           
       - name: Fetch Organization Stats
         env:
@@ -119,6 +124,7 @@ jobs:
 $COMMITS_BADGE\\
 $PRS_BADGE\\
 $REPOS_BADGE\\
+\\
 " README.md
           
           echo "✅ Dynamic badges updated in README.md"
