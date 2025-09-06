@@ -40,7 +40,7 @@
 
 <div align="center">
   <img src="https://github-readme-stats-tuha263.vercel.app/api?username=tuha263&show_icons=true&theme=synthwave&count_private=true&include_all_commits=true&show_owner=true&hide_border=true&bg_color=0D1117&title_color=F85D7F&icon_color=F8D866&text_color=FFFFFF&custom_title=Complete%20Development%20Statistics" width="49%" />
-  <img src="https://github-readme-streak-stats-tuha263.herokuapp.com/?user=tuha263&theme=synthwave&hide_border=true&background=0D1117&stroke=F85D7F&ring=F8D866&fire=F85D7F&currStreakLabel=F85D7F" width="49%" />
+  <img src="https://github-readme-streak-stats-tuha263.vercel.app/?user=tuha263&theme=synthwave&hide_border=true&background=0D1117&stroke=F85D7F&ring=F8D866&fire=F85D7F&currStreakLabel=F85D7F" width="49%" />
 </div>
 
 <div align="center">
@@ -584,7 +584,7 @@ Powered by JetBrains + Claude Code! 🚀
 
 <div align="center">
   
-[![GitHub Activity Graph](https://activity-graph-tuha263.vercel.app/graph?username=tuha263&theme=github-dark&hide_border=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=FFFFFF)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![GitHub Activity Graph](https://github-readme-activity-graph-tuha263.vercel.app/graph?username=tuha263&theme=github-dark&hide_border=true&bg_color=0D1117&color=F85D7F&line=F8D866&point=FFFFFF)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 

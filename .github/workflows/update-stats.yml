@@ -1,0 +1,167 @@
+name: Update Profile Statistics
+
+on:
+  schedule:
+    # Runs every 4 hours
+    - cron: '0 */4 * * *'
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      actions: read
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Setup Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y bc jq
+          
+      - name: Collect GitHub Statistics
+        env:
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
+        run: |
+          echo "📊 Collecting GitHub statistics..."
+          
+          # Get organizations
+          ORGS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/user/orgs" | \
+            jq -r '.[].login' | tr '\n' ',' | sed 's/,$//')
+          
+          # Get user stats
+          USER_STATS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/users/tuha263")
+          
+          PUBLIC_REPOS=$(echo "$USER_STATS" | jq -r '.public_repos')
+          FOLLOWERS=$(echo "$USER_STATS" | jq -r '.followers')
+          
+          # Get total commits using GraphQL
+          GRAPHQL_QUERY='{"query":"query { user(login: \"tuha263\") { contributionsCollection { contributionCalendar { totalContributions } } repositories(first: 100, ownerAffiliations: [OWNER, ORGANIZATION_MEMBER, COLLABORATOR]) { totalCount } pullRequests(first: 100) { totalCount } issues(first: 100) { totalCount } } }"}'
+          
+          GRAPHQL_RESPONSE=$(curl -s -H "Authorization: bearer $GITHUB_TOKEN" \
+            -H "Content-Type: application/json" \
+            -X POST -d "$GRAPHQL_QUERY" \
+            https://api.github.com/graphql)
+          
+          # Extract values from GraphQL response
+          TOTAL_CONTRIBUTIONS=$(echo "$GRAPHQL_RESPONSE" | jq -r '.data.user.contributionsCollection.contributionCalendar.totalContributions // 0')
+          TOTAL_REPOS=$(echo "$GRAPHQL_RESPONSE" | jq -r '.data.user.repositories.totalCount // 0')
+          TOTAL_PRS=$(echo "$GRAPHQL_RESPONSE" | jq -r '.data.user.pullRequests.totalCount // 0')
+          TOTAL_ISSUES=$(echo "$GRAPHQL_RESPONSE" | jq -r '.data.user.issues.totalCount // 0')
+          
+          # Get personal commits count
+          PERSONAL_COMMITS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/search/commits?q=author:tuha263" | \
+            jq -r '.total_count // 0')
+          
+          # Calculate organization contributions
+          ORG_CONTRIBUTIONS=0
+          for org in $(echo $ORGS | tr ',' '\n'); do
+            echo "Checking organization: $org"
+            ORG_REPOS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+              "https://api.github.com/orgs/$org/repos?per_page=100" | \
+              jq -r '.[].name')
+            
+            for repo in $ORG_REPOS; do
+              COMMITS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+                "https://api.github.com/repos/$org/$repo/commits?author=tuha263&per_page=1" | \
+                jq '. | length')
+              if [ "$COMMITS" -gt 0 ]; then
+                FULL_COMMITS=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+                  "https://api.github.com/repos/$org/$repo/contributors" | \
+                  jq -r '.[] | select(.login=="tuha263") | .contributions // 0')
+                ORG_CONTRIBUTIONS=$((ORG_CONTRIBUTIONS + FULL_COMMITS))
+              fi
+            done
+          done
+          
+          # Calculate total commits
+          TOTAL_COMMITS=$((PERSONAL_COMMITS + ORG_CONTRIBUTIONS))
+          
+          # Format numbers for display
+          if [ $TOTAL_COMMITS -gt 1000 ]; then
+            COMMITS_DISPLAY=$(echo "scale=1; $TOTAL_COMMITS/1000" | bc)k
+          else
+            COMMITS_DISPLAY=$TOTAL_COMMITS
+          fi
+          
+          # Count organizations
+          ORG_COUNT=$(echo $ORGS | tr ',' ' ' | wc -w)
+          
+          # Create JSON data file
+          cat > profile-stats.json << EOF
+          {
+            "updated": "$(date -u +"%Y-%m-%dT%H:%M:%SZ")",
+            "stats": {
+              "totalCommits": $TOTAL_COMMITS,
+              "commitsDisplay": "${COMMITS_DISPLAY}+",
+              "personalCommits": $PERSONAL_COMMITS,
+              "organizationCommits": $ORG_CONTRIBUTIONS,
+              "pullRequests": $TOTAL_PRS,
+              "issues": $TOTAL_ISSUES,
+              "publicRepos": $PUBLIC_REPOS,
+              "totalRepos": $TOTAL_REPOS,
+              "followers": $FOLLOWERS,
+              "organizations": $ORG_COUNT,
+              "organizationsList": "$ORGS"
+            },
+            "badges": {
+              "commits": "[![Total Contributions](https://img.shields.io/badge/Total_Commits-${COMMITS_DISPLAY}+-green?style=for-the-badge&logo=git)](https://github.com/tuha263)",
+              "prs": "[![Pull Requests](https://img.shields.io/badge/Pull_Requests-${TOTAL_PRS}+-blue?style=for-the-badge&logo=github)](https://github.com/tuha263)",
+              "repos": "[![Active Repositories](https://img.shields.io/badge/Active_Repos-${TOTAL_REPOS}+-ff69b4?style=for-the-badge&logo=unity)](https://github.com/tuha263)"
+            },
+            "terminal": {
+              "contributions": "📊 TOTAL CONTRIBUTIONS: ${COMMITS_DISPLAY} commits across ${TOTAL_REPOS} repositories",
+              "pullRequests": "🎯 PULL REQUESTS: ${TOTAL_PRS}+ merged contributions"
+            }
+          }
+          EOF
+          
+          echo "✅ Statistics saved to profile-stats.json"
+          cat profile-stats.json
+          
+          # Create deployments configuration file
+          cat > deployments-config.json << EOF
+          {
+            "statsCard": "https://github-readme-stats-tuha263.vercel.app",
+            "streakStats": "https://github-readme-streak-stats-tuha263.vercel.app",
+            "activityGraph": "https://github-readme-activity-graph-tuha263.vercel.app",
+            "languageStats": "https://github-readme-stats-tuha263.vercel.app",
+            "profileTrophy": "https://github-profile-trophy.vercel.app",
+            "typingSvg": "https://readme-typing-svg.herokuapp.com"
+          }
+          EOF
+          
+          echo "✅ Deployments configuration saved"
+          
+      - name: Generate GitHub Activity
+        uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          COMMIT_MSG: '⚡ Update GitHub activity'
+          MAX_LINES: 5
+          COMMIT_NAME: 'github-actions[bot]'
+          COMMIT_EMAIL: 'github-actions[bot]@users.noreply.github.com'
+          
+      - name: Commit Data Files
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Check if there are changes to commit
+          if git diff --quiet profile-stats.json deployments-config.json; then
+            echo "No changes to data files"
+          else
+            git add profile-stats.json deployments-config.json
+            git commit -m "📊 Update profile data files [skip ci]"
+            git push
+          fi
