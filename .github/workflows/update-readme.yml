@@ -126,7 +126,8 @@ jobs:
           echo "  Organizations: $ORGS_COUNT"
           echo "  Followers: $FOLLOWERS"
 
-      - name: 🔄 Update GitHub Activity
+      - name: 🔄 Update GitHub Activity (Schedule/Manual Only)
+        if: github.event_name != 'push'
         uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
@@ -178,10 +179,10 @@ jobs:
           echo "🔧 Ensuring organization-aware configurations..."
           
           # Update activity graph to use alternative that supports private contributions
-          sed -i 's|github-readme-activity-graph\.vercel\.app/graph|github-readme-activity-graph-tuha263.vercel.app/graph|g' README.md || true
+          sed -i 's|github-readme-activity-graph\.vercel\.app/graph|activity-graph-tuha263.vercel.app/graph|g' README.md || true
           
-          # Update streak stats to use custom deployment if available
-          sed -i 's|github-readme-streak-stats\.herokuapp\.com|streak-stats-tuha263.herokuapp.com|g' README.md || true
+          # Update streak stats to use custom deployment if available  
+          sed -i 's|github-readme-streak-stats\.herokuapp\.com|github-readme-streak-stats-tuha263.herokuapp.com|g' README.md || true
           
           echo "✅ Alternative API configurations applied"
 
