@@ -46,10 +46,10 @@
 <div align="center">
   
 ### 🚀 Development Metrics
-[![Total Contributions](https://img.shields.io/badge/Total_Commits-995+-green?style=for-the-badge&logo=git)](https://github.com/tuha263)
+[![Total Contributions](https://img.shields.io/badge/Total_Commits-998+-green?style=for-the-badge&logo=git)](https://github.com/tuha263)
 [![Pull Requests](https://img.shields.io/badge/Pull_Requests-21+-blue?style=for-the-badge&logo=github)](https://github.com/tuha263)
 [![Active Repositories](https://img.shields.io/badge/Active_Repos-0+-ff69b4?style=for-the-badge&logo=unity)](https://github.com/tuha263)
-</div>
+
 
 ---
 
