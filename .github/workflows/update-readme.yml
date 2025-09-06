@@ -4,7 +4,7 @@ on:
   schedule:
     # Runs every 4 hours for more frequent updates
     - cron: '0 */4 * * *'
-  workflow_dispatch:
+  workflow_dispatch: {}
   push:
     branches: [main]
 
