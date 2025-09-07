@@ -184,11 +184,13 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
+          # Add all data files to staging
+          git add profile-stats.json deployments-config.json commits-badge.json prs-badge.json repos-badge.json
+          
           # Check if there are changes to commit
-          if git diff --quiet profile-stats.json deployments-config.json commits-badge.json prs-badge.json repos-badge.json; then
+          if git diff --staged --quiet; then
             echo "No changes to data files"
           else
-            git add profile-stats.json deployments-config.json commits-badge.json prs-badge.json repos-badge.json
             
             # Try to pull latest changes first to avoid conflicts
             git pull --rebase origin main || echo "No remote changes to pull"
