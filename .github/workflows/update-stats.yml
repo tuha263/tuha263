@@ -127,6 +127,34 @@ jobs:
           echo "✅ Statistics saved to profile-stats.json"
           cat profile-stats.json
           
+          # Create shields.io endpoint JSON files
+          cat > commits-badge.json << EOF
+          {
+            "schemaVersion": 1,
+            "label": "Total Commits",
+            "message": "${COMMITS_DISPLAY}",
+            "color": "green"
+          }
+          EOF
+          
+          cat > prs-badge.json << EOF
+          {
+            "schemaVersion": 1,
+            "label": "Pull Requests",
+            "message": "${TOTAL_PRS}+",
+            "color": "blue"
+          }
+          EOF
+          
+          cat > repos-badge.json << EOF
+          {
+            "schemaVersion": 1,
+            "label": "Active Repos",
+            "message": "${TOTAL_REPOS}+",
+            "color": "ff69b4"
+          }
+          EOF
+          
           # Create deployments configuration file
           cat > deployments-config.json << EOF
           {
@@ -157,10 +185,10 @@ jobs:
           git config --local user.name "github-actions[bot]"
           
           # Check if there are changes to commit
-          if git diff --quiet profile-stats.json deployments-config.json; then
+          if git diff --quiet profile-stats.json deployments-config.json commits-badge.json prs-badge.json repos-badge.json; then
             echo "No changes to data files"
           else
-            git add profile-stats.json deployments-config.json
+            git add profile-stats.json deployments-config.json commits-badge.json prs-badge.json repos-badge.json
             
             # Try to pull latest changes first to avoid conflicts
             git pull --rebase origin main || echo "No remote changes to pull"
