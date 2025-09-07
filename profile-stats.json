@@ -1,0 +1,25 @@
+{
+  "updated": "2025-09-07T01:38:31Z",
+  "stats": {
+    "totalCommits": 3901,
+    "commitsDisplay": "3.9k+",
+    "personalCommits": 2942,
+    "organizationCommits": 959,
+    "pullRequests": 300,
+    "issues": 14,
+    "publicRepos": 20,
+    "totalRepos": 87,
+    "followers": 2,
+    "organizations": 5,
+    "organizationsList": "StrangeLoopGames,NovalandNFT,The1Studio,GameDevelopmentKit,p00ls-games-hosting"
+  },
+  "badges": {
+    "commits": "[![Total Contributions](https://img.shields.io/badge/Total_Commits-3.9k+-green?style=for-the-badge&logo=git)](https://github.com/tuha263)",
+    "prs": "[![Pull Requests](https://img.shields.io/badge/Pull_Requests-300+-blue?style=for-the-badge&logo=github)](https://github.com/tuha263)",
+    "repos": "[![Active Repositories](https://img.shields.io/badge/Active_Repos-87+-ff69b4?style=for-the-badge&logo=unity)](https://github.com/tuha263)"
+  },
+  "terminal": {
+    "contributions": "📊 TOTAL CONTRIBUTIONS: 3.9k commits across 87 repositories",
+    "pullRequests": "🎯 PULL REQUESTS: 300+ merged contributions"
+  }
+}
