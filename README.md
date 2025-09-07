@@ -107,7 +107,7 @@
 
 <div align="center">
   
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=tuha263&theme=darkhub&no-frame=true&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+[![GitHub Trophies](https://github-profile-trophy-tuha263.vercel.app/?username=tuha263&theme=darkhub&no-frame=true&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
 
