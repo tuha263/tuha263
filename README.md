@@ -46,9 +46,9 @@
 <div align="center">
   
 ### 🚀 Development Metrics
-[![Total Contributions](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/tuha263/tuha263/main/commits-badge.json&style=for-the-badge&logo=git)](https://github.com/tuha263)
-[![Pull Requests](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/tuha263/tuha263/main/prs-badge.json&style=for-the-badge&logo=github)](https://github.com/tuha263)
-[![Active Repositories](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/tuha263/tuha263/main/repos-badge.json&style=for-the-badge&logo=unity)](https://github.com/tuha263)
+[![Total Contributions](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/tuha263/tuha263/main/commits-badge.json&style=for-the-badge&logo=git&cacheSeconds=300)](https://github.com/tuha263)
+[![Pull Requests](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/tuha263/tuha263/main/prs-badge.json&style=for-the-badge&logo=github&cacheSeconds=300)](https://github.com/tuha263)
+[![Active Repositories](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/tuha263/tuha263/main/repos-badge.json&style=for-the-badge&logo=unity&cacheSeconds=300)](https://github.com/tuha263)
 
 
 
@@ -177,9 +177,9 @@ DevOps & CI/CD              █████████████░░░░�
 </div>
 
 ### 🏆 2024 Development Milestones
-[![Commits](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/tuha263/tuha263/main/commits-badge.json&style=for-the-badge&logo=git&color=brightgreen)](https://github.com/tuha263)
-[![Pull Requests](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/tuha263/tuha263/main/prs-badge.json&style=for-the-badge&logo=github)](https://github.com/tuha263)
-[![Projects](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/tuha263/tuha263/main/repos-badge.json&style=for-the-badge&logo=unity&color=orange)](https://github.com/tuha263)
+[![Commits](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/tuha263/tuha263/main/commits-badge.json&style=for-the-badge&logo=git&color=brightgreen&cacheSeconds=300)](https://github.com/tuha263)
+[![Pull Requests](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/tuha263/tuha263/main/prs-badge.json&style=for-the-badge&logo=github&cacheSeconds=300)](https://github.com/tuha263)
+[![Projects](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/tuha263/tuha263/main/repos-badge.json&style=for-the-badge&logo=unity&color=orange&cacheSeconds=300)](https://github.com/tuha263)
 
 **🏢 Studio Mission:** Building next-generation puzzle mechanics with physics-based innovations  
 **🔧 Tech Stack:** JetBrains Rider + Claude Code + Unity 2023.x + C# .NET 6.0+  
