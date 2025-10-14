@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#2](https://github.com/The1Studio/DynamicUserDifficulty/pull/2) in [The1Studio/DynamicUserDifficulty](https://github.com/The1Studio/DynamicUserDifficulty)
-2. 🔒 Closed issue [#1](https://github.com/The1Studio/DynamicUserDifficulty/issues/1) in [The1Studio/DynamicUserDifficulty](https://github.com/The1Studio/DynamicUserDifficulty)
+1. 🔒 Closed issue [#1](https://github.com/The1Studio/DynamicUserDifficulty/issues/1) in [The1Studio/DynamicUserDifficulty](https://github.com/The1Studio/DynamicUserDifficulty)
+2. 🗣 Commented on [#2](https://github.com/The1Studio/DynamicUserDifficulty/pull/2#issuecomment-3302145518) in [The1Studio/DynamicUserDifficulty](https://github.com/The1Studio/DynamicUserDifficulty)
 <!--END_SECTION:activity-->
 
 ---
