@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#2](undefined) in [The1Studio/TheOne.Pooling](https://github.com/The1Studio/TheOne.Pooling)
-2. 💪 Opened PR [#1](undefined) in [The1Studio/TheOne.DI](https://github.com/The1Studio/TheOne.DI)
+1. 💪 Opened PR [#4](undefined) in [The1Studio/unity-mcp](https://github.com/The1Studio/unity-mcp)
+2. 💪 Opened PR [#4](undefined) in [The1Studio/UnityOptimizationTools](https://github.com/The1Studio/UnityOptimizationTools)
 <!--END_SECTION:activity-->
 
 ---
