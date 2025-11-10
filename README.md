@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1](https://github.com/The1Studio/DynamicUserDifficultyUITemplate/pull/1#issuecomment-3483864728) in [The1Studio/DynamicUserDifficultyUITemplate](https://github.com/The1Studio/DynamicUserDifficultyUITemplate)
-2. 💪 Opened PR [#1](undefined) in [The1Studio/DynamicUserDifficultyUITemplate](https://github.com/The1Studio/DynamicUserDifficultyUITemplate)
+1. 💪 Opened PR [#5](undefined) in [The1Studio/DynamicUserDifficultyUITemplate](https://github.com/The1Studio/DynamicUserDifficultyUITemplate)
+2. 💪 Opened PR [#7](undefined) in [The1Studio/DynamicUserDifficulty](https://github.com/The1Studio/DynamicUserDifficulty)
 <!--END_SECTION:activity-->
 
 ---
