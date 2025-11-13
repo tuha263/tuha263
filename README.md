@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. ❌ Assigned PR [#12](undefined) in [The1Studio/DynamicUserDifficultyUITemplate](https://github.com/The1Studio/DynamicUserDifficultyUITemplate)
-2. 💪 Opened PR [#12](undefined) in [The1Studio/DynamicUserDifficultyUITemplate](https://github.com/The1Studio/DynamicUserDifficultyUITemplate)
+1. 🗣 Commented on [#3](https://github.com/The1Studio/UnityAdQualitySDK/pull/3#issuecomment-3526039071) in [The1Studio/UnityAdQualitySDK](https://github.com/The1Studio/UnityAdQualitySDK)
+2. 💪 Opened PR [#3](undefined) in [The1Studio/UnityAdQualitySDK](https://github.com/The1Studio/UnityAdQualitySDK)
 <!--END_SECTION:activity-->
 
 ---
