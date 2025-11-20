@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#2](undefined) in [The1Studio/ClaudeAssistant](https://github.com/The1Studio/ClaudeAssistant)
-2. 🗣 Commented on [#1](https://github.com/The1Studio/ClaudeAssistant/pull/1#issuecomment-3551076821) in [The1Studio/ClaudeAssistant](https://github.com/The1Studio/ClaudeAssistant)
+1. 🗣 Commented on [#3](https://github.com/The1Studio/UnityAdQualitySDK/pull/3#issuecomment-3526039071) in [The1Studio/UnityAdQualitySDK](https://github.com/The1Studio/UnityAdQualitySDK)
+2. 💪 Opened PR [#3](undefined) in [The1Studio/UnityAdQualitySDK](https://github.com/The1Studio/UnityAdQualitySDK)
 <!--END_SECTION:activity-->
 
 ---
