@@ -1,11 +1,11 @@
 {
-  "updated": "2025-12-31T08:13:59Z",
+  "updated": "2025-12-31T12:16:13Z",
   "stats": {
-    "totalCommits": 6194,
-    "commitsDisplay": "6.1k+",
-    "personalCommits": 5180,
+    "totalCommits": 6205,
+    "commitsDisplay": "6.2k+",
+    "personalCommits": 5191,
     "organizationCommits": 1014,
-    "pullRequests": 674,
+    "pullRequests": 676,
     "issues": 14,
     "publicRepos": 22,
     "totalRepos": 106,
@@ -14,12 +14,12 @@
     "organizationsList": "StrangeLoopGames,NovalandNFT,The1Studio,GameDevelopmentKit,p00ls-games-hosting"
   },
   "badges": {
-    "commits": "[![Total Contributions](https://img.shields.io/badge/Total_Commits-6.1k+-green?style=for-the-badge&logo=git)](https://github.com/tuha263)",
-    "prs": "[![Pull Requests](https://img.shields.io/badge/Pull_Requests-674+-blue?style=for-the-badge&logo=github)](https://github.com/tuha263)",
+    "commits": "[![Total Contributions](https://img.shields.io/badge/Total_Commits-6.2k+-green?style=for-the-badge&logo=git)](https://github.com/tuha263)",
+    "prs": "[![Pull Requests](https://img.shields.io/badge/Pull_Requests-676+-blue?style=for-the-badge&logo=github)](https://github.com/tuha263)",
     "repos": "[![Active Repositories](https://img.shields.io/badge/Active_Repos-106+-ff69b4?style=for-the-badge&logo=unity)](https://github.com/tuha263)"
   },
   "terminal": {
-    "contributions": "📊 TOTAL CONTRIBUTIONS: 6.1k commits across 106 repositories",
-    "pullRequests": "🎯 PULL REQUESTS: 674+ merged contributions"
+    "contributions": "📊 TOTAL CONTRIBUTIONS: 6.2k commits across 106 repositories",
+    "pullRequests": "🎯 PULL REQUESTS: 676+ merged contributions"
   }
 }
