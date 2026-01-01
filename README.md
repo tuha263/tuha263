@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. ❌ Merged PR [#1](undefined) in [The1Studio/rn-template](https://github.com/The1Studio/rn-template)
-2. 💪 Opened PR [#1](undefined) in [The1Studio/rn-template](https://github.com/The1Studio/rn-template)
+1. 🎉 Merged PR [#1](https://github.com/The1Studio/rn-template/pull/1) in [The1Studio/rn-template](https://github.com/The1Studio/rn-template)
+2. 💪 Opened PR [#1](https://github.com/The1Studio/rn-template/pull/1) in [The1Studio/rn-template](https://github.com/The1Studio/rn-template)
 <!--END_SECTION:activity-->
 
 ---
