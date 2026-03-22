@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/The1Studio/rn-template/pull/1) in [The1Studio/rn-template](https://github.com/The1Studio/rn-template)
-2. 💪 Opened PR [#1](https://github.com/The1Studio/rn-template/pull/1) in [The1Studio/rn-template](https://github.com/The1Studio/rn-template)
+1. 🔒 Closed issue [#2](https://github.com/The1Studio/unity-mcp/issues/2) in [The1Studio/unity-mcp](https://github.com/The1Studio/unity-mcp)
+2. 🔒 Closed issue [#1](https://github.com/The1Studio/unity-mcp/issues/1) in [The1Studio/unity-mcp](https://github.com/The1Studio/unity-mcp)
 <!--END_SECTION:activity-->
 
 ---
