@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 🔒 Closed issue [#55](https://github.com/The1Studio/theonekit-release-action/issues/55) in [The1Studio/theonekit-release-action](https://github.com/The1Studio/theonekit-release-action)
-2. 🔒 Closed issue [#51](https://github.com/The1Studio/theonekit-release-action/issues/51) in [The1Studio/theonekit-release-action](https://github.com/The1Studio/theonekit-release-action)
+1. 🔒 Closed issue [#52](https://github.com/The1Studio/theonekit-release-action/issues/52) in [The1Studio/theonekit-release-action](https://github.com/The1Studio/theonekit-release-action)
+2. 🔒 Closed issue [#53](https://github.com/The1Studio/theonekit-release-action/issues/53) in [The1Studio/theonekit-release-action](https://github.com/The1Studio/theonekit-release-action)
 <!--END_SECTION:activity-->
 
 ---
