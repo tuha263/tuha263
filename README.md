@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#62](https://github.com/The1Studio/theonekit-release-action/pull/62) in [The1Studio/theonekit-release-action](https://github.com/The1Studio/theonekit-release-action)
-2. 🗣 Commented on [#47](https://github.com/The1Studio/theonekit-release-action/pull/47#issuecomment-4352879279) in [The1Studio/theonekit-release-action](https://github.com/The1Studio/theonekit-release-action)
+1. 🎉 Merged PR [#63](https://github.com/The1Studio/theonekit-release-action/pull/63) in [The1Studio/theonekit-release-action](https://github.com/The1Studio/theonekit-release-action)
+2. 🎉 Merged PR [#64](https://github.com/The1Studio/theonekit-release-action/pull/64) in [The1Studio/theonekit-release-action](https://github.com/The1Studio/theonekit-release-action)
 <!--END_SECTION:activity-->
 
 ---
