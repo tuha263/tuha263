@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#131](https://github.com/The1Studio/theonekit-release-action/pull/131) in [The1Studio/theonekit-release-action](https://github.com/The1Studio/theonekit-release-action)
-2. 💪 Opened PR [#131](https://github.com/The1Studio/theonekit-release-action/pull/131) in [The1Studio/theonekit-release-action](https://github.com/The1Studio/theonekit-release-action)
+1. ℹ️ Labeled issue [#84](https://github.com/The1Studio/theonekit-model-router/issues/84) in [The1Studio/theonekit-model-router](https://github.com/The1Studio/theonekit-model-router)
+2. ❗ Opened issue [#84](https://github.com/The1Studio/theonekit-model-router/issues/84) in [The1Studio/theonekit-model-router](https://github.com/The1Studio/theonekit-model-router)
 <!--END_SECTION:activity-->
 
 ---
