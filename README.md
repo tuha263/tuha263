@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#12](https://github.com/The1Studio/unity-mcp/pull/12) in [The1Studio/unity-mcp](https://github.com/The1Studio/unity-mcp)
-2. 🗣 Commented on [#7](https://github.com/The1Studio/unity-mcp/issues/7#issuecomment-4582280602) in [The1Studio/unity-mcp](https://github.com/The1Studio/unity-mcp)
+1. ❗ Opened issue [#92](https://github.com/The1Studio/theonekit-model-router/issues/92) in [The1Studio/theonekit-model-router](https://github.com/The1Studio/theonekit-model-router)
+2. 💪 Opened PR [#12](https://github.com/The1Studio/unity-mcp/pull/12) in [The1Studio/unity-mcp](https://github.com/The1Studio/unity-mcp)
 <!--END_SECTION:activity-->
 
 ---
