@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#2](https://github.com/The1Studio/developer-docs/pull/2) in [The1Studio/developer-docs](https://github.com/The1Studio/developer-docs)
-2. 🔒 Closed issue [#1](https://github.com/The1Studio/developer-docs/issues/1) in [The1Studio/developer-docs](https://github.com/The1Studio/developer-docs)
+1. 💪 Opened PR [#14](https://github.com/The1Studio/plane/pull/14) in [The1Studio/plane](https://github.com/The1Studio/plane)
+2. 💪 Opened PR [#13](https://github.com/The1Studio/plane/pull/13) in [The1Studio/plane](https://github.com/The1Studio/plane)
 <!--END_SECTION:activity-->
 
 ---
