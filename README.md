@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. ❗ Opened issue [#3](https://github.com/The1Studio/plane-python-sdk/issues/3) in [The1Studio/plane-python-sdk](https://github.com/The1Studio/plane-python-sdk)
-2. ❗ Opened issue [#3](https://github.com/The1Studio/plane-node-sdk/issues/3) in [The1Studio/plane-node-sdk](https://github.com/The1Studio/plane-node-sdk)
+1. 🎉 Merged PR [#16](https://github.com/The1Studio/plane/pull/16) in [The1Studio/plane](https://github.com/The1Studio/plane)
+2. 🎉 Merged PR [#18](https://github.com/The1Studio/plane/pull/18) in [The1Studio/plane](https://github.com/The1Studio/plane)
 <!--END_SECTION:activity-->
 
 ---
