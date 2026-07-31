@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#19](https://github.com/The1Studio/plane/pull/19) in [The1Studio/plane](https://github.com/The1Studio/plane)
-2. 💪 Opened PR [#19](https://github.com/The1Studio/plane/pull/19) in [The1Studio/plane](https://github.com/The1Studio/plane)
+1. 🎉 Merged PR [#35](https://github.com/The1Studio/unity-mcp/pull/35) in [The1Studio/unity-mcp](https://github.com/The1Studio/unity-mcp)
+2. 💪 Opened PR [#35](https://github.com/The1Studio/unity-mcp/pull/35) in [The1Studio/unity-mcp](https://github.com/The1Studio/unity-mcp)
 <!--END_SECTION:activity-->
 
 ---
