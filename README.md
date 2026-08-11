@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#41](https://github.com/The1Studio/unity-mcp/pull/41#issuecomment-5166918008) in [The1Studio/unity-mcp](https://github.com/The1Studio/unity-mcp)
-2. 🗣 Commented on [#41](https://github.com/The1Studio/unity-mcp/pull/41#issuecomment-5166895058) in [The1Studio/unity-mcp](https://github.com/The1Studio/unity-mcp)
+1. 🎉 Merged PR [#41](https://github.com/The1Studio/unity-mcp/pull/41) in [The1Studio/unity-mcp](https://github.com/The1Studio/unity-mcp)
+2. 🗣 Commented on [#41](https://github.com/The1Studio/unity-mcp/pull/41#issuecomment-5166918008) in [The1Studio/unity-mcp](https://github.com/The1Studio/unity-mcp)
 <!--END_SECTION:activity-->
 
 ---
