@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. ❗ Opened issue [#67](https://github.com/The1Studio/unity-mcp/issues/67) in [The1Studio/unity-mcp](https://github.com/The1Studio/unity-mcp)
-2. 🎉 Merged PR [#8](https://github.com/The1Studio/plane-mcp-server/pull/8) in [The1Studio/plane-mcp-server](https://github.com/The1Studio/plane-mcp-server)
+1. 🗣 Commented on [#68](https://github.com/The1Studio/unity-mcp/issues/68#issuecomment-5326883726) in [The1Studio/unity-mcp](https://github.com/The1Studio/unity-mcp)
+2. ❗ Opened issue [#69](https://github.com/The1Studio/unity-mcp/issues/69) in [The1Studio/unity-mcp](https://github.com/The1Studio/unity-mcp)
 <!--END_SECTION:activity-->
 
 ---
