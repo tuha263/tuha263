@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#62](https://github.com/The1Studio/unity-mcp/issues/62#issuecomment-5328599778) in [The1Studio/unity-mcp](https://github.com/The1Studio/unity-mcp)
-2. ❗ Opened issue [#70](https://github.com/The1Studio/unity-mcp/issues/70) in [The1Studio/unity-mcp](https://github.com/The1Studio/unity-mcp)
+1. 🗣 Commented on [#88584](https://github.com/anthropics/claude-code/issues/88584#issuecomment-5374139798) in [anthropics/claude-code](https://github.com/anthropics/claude-code)
+2. ❗ Opened issue [#88584](https://github.com/anthropics/claude-code/issues/88584) in [anthropics/claude-code](https://github.com/anthropics/claude-code)
 <!--END_SECTION:activity-->
 
 ---
