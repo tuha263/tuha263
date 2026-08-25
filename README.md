@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#10](https://github.com/The1Studio/oc-go-cc/pull/10) in [The1Studio/oc-go-cc](https://github.com/The1Studio/oc-go-cc)
-2. 💪 Opened PR [#10](https://github.com/The1Studio/oc-go-cc/pull/10) in [The1Studio/oc-go-cc](https://github.com/The1Studio/oc-go-cc)
+1. 💪 Opened PR [#1](https://github.com/The1Studio/whatsapp-mcp/pull/1) in [The1Studio/whatsapp-mcp](https://github.com/The1Studio/whatsapp-mcp)
+2. 🎉 Merged PR [#10](https://github.com/The1Studio/oc-go-cc/pull/10) in [The1Studio/oc-go-cc](https://github.com/The1Studio/oc-go-cc)
 <!--END_SECTION:activity-->
 
 ---
