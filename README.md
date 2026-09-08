@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#232](https://github.com/kaitranntt/CLIProxyAPIPlus/pull/232) in [kaitranntt/CLIProxyAPIPlus](https://github.com/kaitranntt/CLIProxyAPIPlus)
-2. ℹ️ Labeled issue [#95](https://github.com/The1Studio/unity-mcp/issues/95) in [The1Studio/unity-mcp](https://github.com/The1Studio/unity-mcp)
+1. 💪 Opened PR [#98](https://github.com/The1Studio/unity-mcp/pull/98) in [The1Studio/unity-mcp](https://github.com/The1Studio/unity-mcp)
+2. 💪 Opened PR [#232](https://github.com/kaitranntt/CLIProxyAPIPlus/pull/232) in [kaitranntt/CLIProxyAPIPlus](https://github.com/kaitranntt/CLIProxyAPIPlus)
 <!--END_SECTION:activity-->
 
 ---
