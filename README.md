@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#232](https://github.com/kaitranntt/CLIProxyAPIPlus/pull/232) in [kaitranntt/CLIProxyAPIPlus](https://github.com/kaitranntt/CLIProxyAPIPlus)
-2. 🎉 Merged PR [#99](https://github.com/The1Studio/unity-mcp/pull/99) in [The1Studio/unity-mcp](https://github.com/The1Studio/unity-mcp)
+1. 🗣 Commented on [#44](https://github.com/The1Studio/plane-mcp-server/pull/44#issuecomment-5631106981) in [The1Studio/plane-mcp-server](https://github.com/The1Studio/plane-mcp-server)
+2. 🗣 Commented on [#108](https://github.com/The1Studio/plane/pull/108#issuecomment-5631077185) in [The1Studio/plane](https://github.com/The1Studio/plane)
 <!--END_SECTION:activity-->
 
 ---
