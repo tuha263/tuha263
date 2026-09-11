@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#44](https://github.com/The1Studio/plane-mcp-server/pull/44#issuecomment-5631106981) in [The1Studio/plane-mcp-server](https://github.com/The1Studio/plane-mcp-server)
-2. 🗣 Commented on [#108](https://github.com/The1Studio/plane/pull/108#issuecomment-5631077185) in [The1Studio/plane](https://github.com/The1Studio/plane)
+1. 🎉 Merged PR [#44](https://github.com/The1Studio/plane-mcp-server/pull/44) in [The1Studio/plane-mcp-server](https://github.com/The1Studio/plane-mcp-server)
+2. 🔒 Closed issue [#43](https://github.com/The1Studio/plane-mcp-server/issues/43) in [The1Studio/plane-mcp-server](https://github.com/The1Studio/plane-mcp-server)
 <!--END_SECTION:activity-->
 
 ---
