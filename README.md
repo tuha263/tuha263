@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#44](https://github.com/The1Studio/plane-mcp-server/pull/44) in [The1Studio/plane-mcp-server](https://github.com/The1Studio/plane-mcp-server)
-2. 🔒 Closed issue [#43](https://github.com/The1Studio/plane-mcp-server/issues/43) in [The1Studio/plane-mcp-server](https://github.com/The1Studio/plane-mcp-server)
+1. 🎉 Merged PR [#11](https://github.com/The1Studio/oc-go-cc/pull/11) in [The1Studio/oc-go-cc](https://github.com/The1Studio/oc-go-cc)
+2. 💪 Opened PR [#11](https://github.com/The1Studio/oc-go-cc/pull/11) in [The1Studio/oc-go-cc](https://github.com/The1Studio/oc-go-cc)
 <!--END_SECTION:activity-->
 
 ---
