@@ -203,7 +203,7 @@ DevOps & CI/CD              █████████████░░░░�
 
 <!--START_SECTION:activity-->
 1. 🎉 Merged PR [#98](https://github.com/The1Studio/unity-mcp/pull/98) in [The1Studio/unity-mcp](https://github.com/The1Studio/unity-mcp)
-2. 🎉 Merged PR [#11](https://github.com/The1Studio/oc-go-cc/pull/11) in [The1Studio/oc-go-cc](https://github.com/The1Studio/oc-go-cc)
+2. 🔒 Closed issue [#43](https://github.com/The1Studio/plane-mcp-server/issues/43) in [The1Studio/plane-mcp-server](https://github.com/The1Studio/plane-mcp-server)
 <!--END_SECTION:activity-->
 
 ---
