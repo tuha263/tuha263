@@ -203,7 +203,7 @@ DevOps & CI/CD              █████████████░░░░�
 
 <!--START_SECTION:activity-->
 1. ❗ Opened issue [#252](https://github.com/jenkinsci/mcp-server-plugin/issues/252) in [jenkinsci/mcp-server-plugin](https://github.com/jenkinsci/mcp-server-plugin)
-2. 🎉 Merged PR [#98](https://github.com/The1Studio/unity-mcp/pull/98) in [The1Studio/unity-mcp](https://github.com/The1Studio/unity-mcp)
+2. 🔒 Closed issue [#43](https://github.com/The1Studio/plane-mcp-server/issues/43) in [The1Studio/plane-mcp-server](https://github.com/The1Studio/plane-mcp-server)
 <!--END_SECTION:activity-->
 
 ---
