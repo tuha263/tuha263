@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/The1Studio/tripo-mcp/pull/1) in [The1Studio/tripo-mcp](https://github.com/The1Studio/tripo-mcp)
-2. 💪 Opened PR [#1](https://github.com/The1Studio/tripo-mcp/pull/1) in [The1Studio/tripo-mcp](https://github.com/The1Studio/tripo-mcp)
+1. 🎉 Merged PR [#2](https://github.com/The1Studio/tripo-mcp/pull/2) in [The1Studio/tripo-mcp](https://github.com/The1Studio/tripo-mcp)
+2. 💪 Opened PR [#2](https://github.com/The1Studio/tripo-mcp/pull/2) in [The1Studio/tripo-mcp](https://github.com/The1Studio/tripo-mcp)
 <!--END_SECTION:activity-->
 
 ---
