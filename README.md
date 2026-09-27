@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. ❗ Opened issue [#252](https://github.com/jenkinsci/mcp-server-plugin/issues/252) in [jenkinsci/mcp-server-plugin](https://github.com/jenkinsci/mcp-server-plugin)
-2. 🔒 Closed issue [#43](https://github.com/The1Studio/plane-mcp-server/issues/43) in [The1Studio/plane-mcp-server](https://github.com/The1Studio/plane-mcp-server)
+1. 💪 Opened PR [#3](https://github.com/The1Studio/discord-mcp/pull/3) in [The1Studio/discord-mcp](https://github.com/The1Studio/discord-mcp)
+2. 💪 Opened PR [#117](https://github.com/The1Studio/plane/pull/117) in [The1Studio/plane](https://github.com/The1Studio/plane)
 <!--END_SECTION:activity-->
 
 ---
