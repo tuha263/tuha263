@@ -203,7 +203,7 @@ DevOps & CI/CD              █████████████░░░░�
 
 <!--START_SECTION:activity-->
 1. ❌ Closed PR [#117](https://github.com/The1Studio/plane/pull/117) in [The1Studio/plane](https://github.com/The1Studio/plane)
-2. 🗣 Commented on [#117](https://github.com/The1Studio/plane/pull/117#issuecomment-5868820232) in [The1Studio/plane](https://github.com/The1Studio/plane)
+2. ❌ Closed PR [#2](https://github.com/The1Studio/discord-mcp/pull/2) in [The1Studio/discord-mcp](https://github.com/The1Studio/discord-mcp)
 <!--END_SECTION:activity-->
 
 ---
