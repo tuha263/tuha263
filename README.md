@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#5](https://github.com/The1Studio/discord-mcp/pull/5#issuecomment-6045483713) in [The1Studio/discord-mcp](https://github.com/The1Studio/discord-mcp)
-2. ❌ Closed PR [#117](https://github.com/The1Studio/plane/pull/117) in [The1Studio/plane](https://github.com/The1Studio/plane)
+1. ❌ Closed PR [#117](https://github.com/The1Studio/plane/pull/117) in [The1Studio/plane](https://github.com/The1Studio/plane)
+2. ❌ Closed PR [#2](https://github.com/The1Studio/discord-mcp/pull/2) in [The1Studio/discord-mcp](https://github.com/The1Studio/discord-mcp)
 <!--END_SECTION:activity-->
 
 ---
