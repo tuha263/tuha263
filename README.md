@@ -202,8 +202,8 @@ DevOps & CI/CD              █████████████░░░░�
 ## 🎮 Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#8](https://github.com/The1Studio/discord-mcp/pull/8) in [The1Studio/discord-mcp](https://github.com/The1Studio/discord-mcp)
-2. 💪 Opened PR [#8](https://github.com/The1Studio/discord-mcp/pull/8) in [The1Studio/discord-mcp](https://github.com/The1Studio/discord-mcp)
+1. 🎉 Merged PR [#9](https://github.com/The1Studio/discord-mcp/pull/9) in [The1Studio/discord-mcp](https://github.com/The1Studio/discord-mcp)
+2. 💪 Opened PR [#9](https://github.com/The1Studio/discord-mcp/pull/9) in [The1Studio/discord-mcp](https://github.com/The1Studio/discord-mcp)
 <!--END_SECTION:activity-->
 
 ---
