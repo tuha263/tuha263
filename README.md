@@ -203,7 +203,7 @@ DevOps & CI/CD              █████████████░░░░�
 
 <!--START_SECTION:activity-->
 1. 🎉 Merged PR [#9](https://github.com/The1Studio/discord-mcp/pull/9) in [The1Studio/discord-mcp](https://github.com/The1Studio/discord-mcp)
-2. 💪 Opened PR [#9](https://github.com/The1Studio/discord-mcp/pull/9) in [The1Studio/discord-mcp](https://github.com/The1Studio/discord-mcp)
+2. ❌ Closed PR [#117](https://github.com/The1Studio/plane/pull/117) in [The1Studio/plane](https://github.com/The1Studio/plane)
 <!--END_SECTION:activity-->
 
 ---
